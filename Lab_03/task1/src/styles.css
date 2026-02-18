@@ -1,0 +1,15 @@
+.root { --bg: #f6f8fb; --card: #ffffff; --muted: #6b7280; --accent: #0b3d91; --accent-600: #082b66; }
+body { margin: 0; background: var(--bg); font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #0f172a; }
+.container { max-width: 900px; margin: 28px auto; padding: 16px; }
+.appHeader { text-align: center; margin-bottom: 18px; }
+.counter { background: var(--card); border-radius: 12px; box-shadow: 0 6px 18px rgba(16,24,40,0.06); padding: 16px; margin-bottom: 14px; border: 1px solid rgba(15,23,42,0.04); }
+.counter h3 { margin: 0 0 8px 0; font-size: 1.05rem; }
+.counter div { margin: 4px 0; }
+.muted { color: var(--muted); font-size: 0.95rem; }
+.lastValues { background: #f8fafc; padding: 8px; border-radius: 6px; display: inline-block; margin-top: 6px; }
+.buttons { display: flex; gap: 8px; margin-top: 12px; }
+.buttons button { padding: 8px 12px; border: none; border-radius: 8px; cursor: pointer; background: linear-gradient(180deg,#eaf0ff,#eef6ff); color: var(--accent-600); font-weight: 600; transition: transform .08s ease, box-shadow .08s ease; }
+.buttons button:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(11,61,145,0.12); }
+.buttons button.secondary { background: #fff; color: #374151; border: 1px solid rgba(15,23,42,0.06); }
+.resetBtn { background: #ffefef; color: #9f1239; }
+

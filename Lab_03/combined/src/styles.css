@@ -1,0 +1,9 @@
+:root { --bg: #f6f8fb; --card: #ffffff; --muted: #6b7280; --accent: #0b3d91; }
+body { margin: 0; background: var(--bg); font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #0f172a }
+.container { max-width: 1000px; margin: 28px auto; padding: 16px }
+.appHeader { text-align: center; margin-bottom: 18px }
+.appHeader button { padding: 8px 12px; border-radius: 8px; border: none; background: linear-gradient(180deg,#eef4ff,#f3f7ff); color: var(--accent); font-weight: 700 }
+.appHeader button.active { box-shadow: 0 6px 18px rgba(11,61,145,0.12); transform: translateY(-1px) }
+
+/* reuse Task1 card/button styles lightly */
+.container .container { padding: 0 }
