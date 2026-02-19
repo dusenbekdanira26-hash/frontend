@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // Import CounterApp from the task1 folder
-import CounterApp from '../../task1/src/components/CounterApp'
+import CounterApp from './components/CounterApp'
 import UserProfile from './components/UserProfile'
 
 // Combined App: simple tabs switch between CounterApp and UserProfile demo
